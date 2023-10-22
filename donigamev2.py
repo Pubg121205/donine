@@ -166,8 +166,8 @@ def di_le():
   uoc = input("Hãy ước điều bạn muốn: ")
   print('Mong bạn 1 ngày tốt lành <3')
   print('Và điều ước sẽ tới với bạn')
-  player = input("bạn muốn chơi với tôi tiếp không (y/n)? ") 
-   if player == "y" or player == "Y":
+  phat = input("bạn muốn chơi với tôi tiếp không (y/n)? ") 
+   if phat == "y" or phat == "Y":
          game1()
    else:
          menu()
